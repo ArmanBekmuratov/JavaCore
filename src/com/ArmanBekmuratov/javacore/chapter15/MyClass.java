@@ -30,5 +30,6 @@ class UseMethodRef {
         MyClass maxValObj = Collections.max(classes, UseMethodRef::compareMC);
 
         System.out.println("Максимальное значение равно " + maxValObj.getVal());
+
     }
 }
